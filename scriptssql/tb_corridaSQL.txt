@@ -1,0 +1,6 @@
+CREATE TABLE `tb_corrida` (
+	`id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`motorista` varchar(255) NOT NULL,
+	`passageiro` varchar(255) NOT NULL,
+	`vlcorrida` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -1,0 +1,7 @@
+CREATE TABLE `tb_passageiro` (
+	`id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`nome` varchar(255) NOT NULL,
+	`datanasc` char(10) NOT NULL,
+	`cpf` char(14) NOT NULL,
+	`sexo` char(9) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

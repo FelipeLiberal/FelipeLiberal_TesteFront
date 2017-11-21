@@ -1,0 +1,9 @@
+CREATE TABLE `tb_motorista` (
+	`id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`nome` varchar(255) NOT NULL,
+	`datanasc` char(10) NOT NULL,
+	`cpf` char(14) NOT NULL,
+	`mcar` char(40) NOT NULL,
+	`status` char(7) NOT NULL,
+	`sexo` char(9) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
